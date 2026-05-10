@@ -1,0 +1,21 @@
+# ============================================================
+# FILE: .gitignore
+# PURPOSE: Tell Git which files to NEVER push to GitHub
+# WHY: .env has your DB password — never expose this publicly
+# ============================================================
+
+# Environment variables (contains DB password)
+.env
+
+# Node.js dependencies (too large, reinstalled via npm install)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Claude Code local settings
+.claude/
